@@ -1,20 +1,13 @@
-# Machine Learning Models for Regression Analysis
+# Machine Learning Models for Regression Analysis 🤖📊
 
 This project involves training and evaluating several regression models to predict the target variable `Cmoy` from a dataset of small machines. The dataset consists of different machine features, and the goal is to predict the average machine output (`Cmoy`) using various regression models, such as Random Forest, Gradient Boosting, XGBoost, and more. Additionally, the impact of feature engineering (FE) on model performance is also evaluated.
 
-## Table of Contents
-- [Prerequisites](#prerequisites)
+## Table of Contents 📑
 - [Dataset](#dataset)
 - [Models Used](#models-used)
 - [Feature Engineering](#feature-engineering)
 - [Results](#results)
 - [Code Explanation](#code-explanation)
-
-## Prerequisites
-
-To run this project, you need to install the required dependencies. You can install them via the `requirements.txt` file.
-
-### `requirements.txt`
 ```plaintext```
 pandas
 scikit-learn
@@ -22,7 +15,8 @@ tqdm
 matplotlib
 eli5
 IPython
-## Dataset
+
+## Dataset 📚
 
 The dataset used for this project is a collection of small machines. The target variable is `Cmoy`, and the dataset contains various numerical features related to the machines. The dataset is split into a training set and a test set.
 
@@ -31,26 +25,26 @@ The dataset used for this project is a collection of small machines. The target 
 
 The target column `Cmoy` is separated from the features in both datasets. The datasets are read using the pandas library and processed to separate the target variable and features.
 
-## Models Used
+## Models Used 🧠
 
 The following regression models are tested to predict the target variable `Cmoy`:
 
-- **Ridge Regression**
-- **Random Forest Regression**
-- **Gradient Boosting Regression**
-- **HistGradient Boosting Regression**
-- **Extra Trees Regression**
-- **XGBoost**
-- **LightGBM**
-- **Lasso Regression**
+- **Ridge Regression** 📐
+- **Random Forest Regression** 🌳
+- **Gradient Boosting Regression** 📈
+- **HistGradient Boosting Regression** 📊
+- **Extra Trees Regression** 🌲
+- **XGBoost** 🚀
+- **LightGBM** 💡
+- **Lasso Regression** 🎯
 
 Each model is trained and evaluated using both the original features and features after engineering (FE) to analyze the impact of feature modifications on model performance.
 
-## Feature Engineering
+## Feature Engineering 🔧
 
 Feature engineering is applied to improve model performance. This step involves transforming the input data to help the models understand the underlying patterns more effectively. In this case, the feature engineering process is implemented before training the models, and its effect on performance is compared against the baseline (without feature engineering).
 
-## Results
+## Results 📈
 
 The performance of the models is evaluated based on their R² score, both with and without feature engineering. The following table summarizes the performance comparison:
 
@@ -67,7 +61,7 @@ The performance of the models is evaluated based on their R² score, both with a
 
 From the results, it is clear that feature engineering improves model performance significantly, especially for models like Random Forest and Extra Trees.
 
-## Code Explanation
+## Code Explanation 💻
 
 The code is designed to:
 
