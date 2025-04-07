@@ -15,7 +15,7 @@ This project involves training and evaluating several regression models to predi
 To run this project, you need to install the required dependencies. You can install them via the `requirements.txt` file.
 
 ### `requirements.txt`
-```plaintext
+```plaintext```
 pandas
 scikit-learn
 tqdm
@@ -23,7 +23,7 @@ matplotlib
 eli5
 IPython
 ## Dataset
-'''
+
 The dataset used for this project is a collection of small machines. The target variable is `Cmoy`, and the dataset contains various numerical features related to the machines. The dataset is split into a training set and a test set.
 
 - **Training Set**: `Dataset_numerique_20000_petites_machines.csv`
